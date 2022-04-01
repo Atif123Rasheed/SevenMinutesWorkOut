@@ -1,5 +1,6 @@
 package com.example.mysevenminutesworkout
 
+import android.opengl.Visibility
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -50,21 +51,27 @@ class ExerciseActivity : AppCompatActivity() {
         binding?.tvExerciseName?.visibility= INVISIBLE
         binding?.frameLayoutExercise?.visibility = INVISIBLE
         binding?.ivExercise?.visibility= INVISIBLE
+        binding?.tvUpcomingExerciseLable?.visibility= VISIBLE
+        binding?.tvUpcomingExerciseName?.visibility= VISIBLE
 
         if (restTimer!=null){
             restTimer?.cancel()
             restProgress = 0
         }
 
+        binding?.tvUpcomingExerciseName?.text = (mExerciseList!![mCurrentExercisePosition+1].getExerciseName())
         setRestProgressBar()
     }
 
     private fun setUpExerciseView(){
-       binding?.frameLayoutRestProgressBar?.visibility = INVISIBLE
+        binding?.frameLayoutRestProgressBar?.visibility = INVISIBLE
         binding?.tvTitle?.visibility= INVISIBLE
         binding?.tvExerciseName?.visibility= VISIBLE
         binding?.ivExercise?.visibility= VISIBLE
         binding?.frameLayoutExercise?.visibility = VISIBLE
+        binding?.tvUpcomingExerciseLable?.visibility= INVISIBLE
+        binding?.tvUpcomingExerciseName?.visibility= INVISIBLE
+
 
         if(exerciseTimer!=null){
             exerciseTimer?.cancel()
