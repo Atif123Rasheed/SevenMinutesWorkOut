@@ -2,4 +2,5 @@
     <string name="app_name">My SevenMinutesWorkOut</string>
     <string name="image">start image</string>
     <string name="start">START</string>
+    <string name="jumping_jacks">Jumping Jacks</string>
 </resources>

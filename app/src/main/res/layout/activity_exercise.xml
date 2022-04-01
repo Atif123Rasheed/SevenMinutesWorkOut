@@ -23,14 +23,14 @@
         android:textStyle="bold"
         android:textSize="24sp"
         android:textColor="@color/colorAccent"
-        app:layout_constraintBottom_toTopOf="@+id/frame_layout_progress_bar"
+        app:layout_constraintBottom_toTopOf="@+id/frame_layout_rest_progress_bar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         >
     </TextView>
 
     <FrameLayout
-        android:id="@+id/frame_layout_progress_bar"
+        android:id="@+id/frame_layout_rest_progress_bar"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="10dp"
@@ -76,6 +76,35 @@
 
     </FrameLayout>
 
+    <ImageView
+        android:id="@+id/iv_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        android:src="@drawable/image_jumping_jack"
+        app:layout_constraintBottom_toTopOf="@+id/tv_exercise_name"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_exercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_exercise_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jumping_jacks"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_exercise"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible">
+
+    </TextView>
     <FrameLayout
         android:id="@+id/frame_layout_exercise"
         android:layout_width="100dp"
@@ -88,7 +117,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar_exercise"
+        app:layout_constraintTop_toBottomOf="@+id/tv_exercise_name"
         app:layout_constraintVertical_bias="0.499">
 
         <ProgressBar
