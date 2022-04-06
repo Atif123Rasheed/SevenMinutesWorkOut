@@ -4,4 +4,12 @@
     <string name="start">START</string>
     <string name="jumping_jacks">Jumping Jacks</string>
     <string name="next_exercise">Next Exercise:</string>
+    <string name="congratulations">CONGRATULATION</string>
+    <string name="exercise_completed">You have completed all exercises</string>
+    <string name="finish">Finish</string>
+    <string name="exercise_end">EXERCISE COMPLETED</string>
+    <string name="warning">Are You Sure?</string>
+    <string name="description_dialogue">Are You Sure You Want to Exit The Current Exercise...</string>
+    <string name="yes">yes</string>
+    <string name="no">NO</string>
 </resources>

@@ -3,14 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable-v24/item_circular_thin_color_accent_border.xml" value="0.2085" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable-v24/item_circular_thincolor_accent_border.xml" value="0.1" />
         <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/circular_progress_bar.xml" value="0.1" />
         <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/circular_progress_grau.xml" value="0.1" />
         <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/circular_progress_gray.xml" value="0.1" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/ic_launcher_background.xml" value="0.134" />
         <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/item_circular_color_accent_background.xml" value="0.1" />
         <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/item_circular_color_accent_border.xml" value="0.1" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/item_circular_color_gray_background.xml" value="0.171" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/item_circular_finish_activity_tick.xml" value="0.2" />
         <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/item_color_accent_border_ripple_background.xml" value="0.1" />
-        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/layout/activity_exercise.xml" value="0.1" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/drawable/item_rectangler_thin_color_accent_border.xml" value="0.2085" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/layout/activity_exercise.xml" value="0.4" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/layout/activity_finish.xml" value="0.24479166666666666" />
         <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/layout/dialogue_onback_press_button.xml" value="0.264" />
+        <entry key="..\:/Users/Nexgen/AndroidStudioProjects/MySevenMinutesWorkOut/app/src/main/res/layout/item_exercise_view.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

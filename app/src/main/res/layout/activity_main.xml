@@ -26,9 +26,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:background="@drawable/item_color_accent_border_ripple_background"
-
         >
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
